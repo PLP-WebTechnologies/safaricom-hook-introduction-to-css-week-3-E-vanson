@@ -1,0 +1,67 @@
+/* Element Selector - Style all h1 elements */
+h1 {
+    font-size: 2.5em;
+    color: navy;
+    margin: 30px;
+}
+
+/* Class Selector - Style sections */
+.section {
+    background-color: #f0f8ff;
+    padding: 30px;
+    margin: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ID Selector - Style the element with the unique ID */
+#unique-box {
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+}
+
+.highlight {
+    color: red;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+h1,
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    font-weight: 400;
+}
+
+.card {
+    background-color: #161515;
+    padding: 30px;
+    margin: 30px auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
